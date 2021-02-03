@@ -1,0 +1,309 @@
+
+h1 {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+h2{
+   text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+
+h3
+{
+ text-align: center;
+ word-spacing: 50pt;  
+ color:  #3ABAF1;
+ background: #0984e3;
+ }
+
+ h4
+ {
+  text-align: center;
+  word-spacing: 50pt;  
+  color:  #3ABAF1;
+  background: #0984e3;
+  }
+ 
+
+header, section, footer, aside,nav, article, hgroup{
+   
+    display block;
+}
+
+#formulario {
+  width: 20%;
+  border: 1px solid #3e8e41; 
+}
+
+table{
+    margin: auto; margin-bottom: 2%; width:60%; margin-top:2%; 
+    border: 2px solid burlywood;
+    background-color: blue  
+    }
+    
+ 
+fieldset{border:3px solid blueviolet; border-radius: 10px;   background:#3ABAF1;
+    padding:30px; text-align: center;}
+
+
+.agrupar{
+    width: 960px;
+    margin:left;
+    padding: 100px;
+  
+   }
+header{
+   text-align: center;
+   padding: 5px;
+   color:  #33A8DB;
+   background: #0984e3;
+   border-radius: 20px; 
+  
+   }
+
+  .titulo{
+    text-align: left;
+    color:blue;
+    background: #0984e3;
+    padding: 10px;
+    right: 100px;
+    size: 10px;
+  
+    }
+
+   tbody{
+        text-align:left;
+        background: white;
+        padding:5px;
+        size: 5px;
+      
+        }
+
+.menu{
+       text-align: left;
+   }
+
+.menu ul{
+list-style: none;
+display: inline-flex;
+line-height: 20px;
+padding: 0;
+margin: 10;
+}
+
+.menu ul li{
+    width: 100px;
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    position: relative;
+
+   }
+
+.menu ul li a {
+    text-decoration: none;
+         color: black;
+       display: block;
+    }
+
+.menu ul li a:hover {
+    background: grey;
+    color:blue;
+    transition: all 3.s;
+}
+
+.seccion{
+       margin: 20px;
+       width: 600px;
+       float: left;
+   }
+
+   
+.seccion1{
+    margin: 20px;
+    width: 300px;
+    float: center;
+}
+   
+header.logo
+{
+   float: left;
+}
+header .logo figure{
+    width: 300px;
+    padding: 10px;
+}
+
+header .logo figure img{
+    width: 100%;
+}
+
+article{
+  background: burlywood;
+    padding: 20px;
+  margin-bottom: 15px;
+
+}
+
+.cuadro{
+    background: #0984e3;
+      padding: 20px;
+    margin-bottom: 15px;
+  
+  }
+  
+article footer{
+    text-align: right;
+}
+
+.tabla
+{ text-align: initial;
+}
+.columna{
+    width: 300px;
+    margin-bottom: auto;
+    float: left;
+    margin: 20px 0px;
+ }
+
+ .boton{
+	background-color: #c6c6c6;
+	border: 1px solid #ccc;
+	padding: 10px 35px;
+	border-radius: 5px;
+	border: 1px solid #999;
+	cursor: pointer;
+	font-size: .8em;
+	margin-top: 15px;
+	text-decoration: none;
+}
+
+.boton1{
+	background-color: #c6c6c6;
+	border: 1px solid #ccc;
+	padding: 5px 10px;
+	border-radius: 5px;
+	border: 1px solid #999;
+	cursor: pointer;
+	font-size: .8em;
+	margin-top: 10px;
+  text-decoration: none;
+  text-align: float ;
+
+}
+
+
+
+.columna blockquote{
+
+    border: 1px solid #0984e3;;
+    padding: 40px;
+    background: burlywood;
+    margin-bottom: 20px;
+}
+
+.derecha{
+    text-align: justify;
+}
+
+.pie{
+    clear: both;
+    padding: 20px;
+    background:  #636e72;
+}
+
+time{
+    color: #999;
+}
+
+body {background-color : #ededed; font-family : "Open Sans", sans-serif;}
+
+h1 {padding: 40px; text-align: center; font-size: 1.5em;}
+
+li a {text-decoration : none; color :  #0984e3; }
+
+
+nav {
+  width : 300px; 
+  background: #d9d9d9;
+  margin : 100px auto; 
+}
+
+span {
+  padding : 30px;
+  background : #0984e3; 
+  color : white;
+  font-size : 1.2em;
+  font-variant : small-caps;
+  cursor : pointer;
+  display: block;
+}
+
+span::after {
+  float: right;
+  right: 10%;
+  content: "+";
+}
+
+.slide {
+  clear:both;
+  width:50%;
+  height:0px;
+  overflow: hidden;
+  text-align: center;
+  transition: height .4s ease;
+}
+
+.slide li {padding : 30px;}
+
+#touch {position: absolute; opacity: 0; height: 0px;}    
+
+#touch:checked + .slide {height: 300px;} 
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}

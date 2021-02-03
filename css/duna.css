@@ -1,0 +1,32 @@
+
+*{ /* 1er selector -  Universal */
+    padding: 0;
+    margin:0;
+  }
+  
+  /*Elementos semanticos */
+  body{
+    font-family: arial,Verdana,sans-serif;/* definir un tipo de fuente*/
+    background: #f1f1f1;  /* definir un color de fondo */
+    font-size: 30px;    /* definir un tamaño de fuente*/
+  }
+ header
+{
+ height:250px; /*definir altura       url('imagenes/DunaF.jpg');*/
+ background-image: url('imagenes/DunaF.jpg'); 
+ background-position: 50% 8%;
+ background-size: cover;
+ 
+}
+
+main{
+    padding: 40px;/* definimos 40 pixeles para cada lado*/
+  
+  }
+
+  main::after{
+    content: "";
+    display:block;
+    clear:both;
+  }
+  
